@@ -1,0 +1,84 @@
+.SideBar {  
+  width: 300px;
+  color: 
+  $white;
+  float: left;
+}
+  .LeftHeader {
+    align-items: center;
+    background-color: #253141;
+    display: flex;
+    height: 100px;
+    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    &__list {
+      box-sizing: border-box;
+      display: flex;
+      font-weight: bold;
+      justify-content: space-between;
+      width: 260px;
+      margin: 0px;
+      padding: 0px; 
+      height: 24px;   
+    }       
+      &__user-name {
+        color: $white;
+        font-weight: bold;
+        font-size: 16px;                   
+      }
+      &__iconList {
+        color: $white;
+        box-sizing: border-box;
+        cursor: pointer;
+        width: 40px;
+        display: flex;
+        font-weight: 700;
+      }
+        &__Icon {
+          box-sizing: border-box;
+          cursor: pointer;
+          color: $white;
+          display: list-item;
+          font-weight: 700;                        
+          margin-left: 4.8px;
+          text-align: left; 
+          height: 24px;
+          width: 16px;           
+        }
+   }  
+  .GroupList {      
+    background-color: #2f3e51;
+    height: 689px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 300px;
+
+    .Group {
+      color: $white;
+      cursor: pointer;
+      height: 45px;
+      margin-bottom: 40px;
+      width: 260px;
+
+      &__name {
+        color: $white;
+        cursor: pointer;          
+        font-size: 15px;
+        height: 23px;
+        margin-block-end: 5px;
+        margin-block-start: 0px;
+        margin-bottom: 5px;
+        width: 260px;
+      } 
+      &__message {
+        color: $white;
+        cursor: pointer;
+        font-size: 11px;
+        height: 17px;
+        width: 260px;
+      } 
+    }
+  }
