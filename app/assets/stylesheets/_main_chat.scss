@@ -87,7 +87,7 @@
 
   .messages {
     background-color: $off_white;      
-    height: 600px;
+    height: calc(100vh - 190px);
     overflow-x: hidden;
     overflow-y: hidden;
     padding: 46px 40px;
